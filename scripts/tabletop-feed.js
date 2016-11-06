@@ -25,21 +25,21 @@ function createTableColumns(){
     is what happens with the More Info column header */
 
     var tableColumns =   [
-    	{"mDataProp": "publication", "sTitle": "Publication", "sClass": "center"},
+	{"mDataProp": "publication", "sTitle": "Publication", "sClass": "center"},
     	{"mDataProp": "date", "sTitle": "Date", "sClass": "center"},
 		{"mDataProp": "title", "sTitle": "Title of work", "sClass": "center"},
 		{"mDataProp": "author", "sTitle": "Author", "sClass": "center"},
+		{"mDataProp": "texttype", "sTitle": "Text type", "sClass": "center"},
+		{"mDataProp": "keyword1", "sTitle": "Keyword", "sClass": "center"},
+		{"mDataProp": "keyword2", "sTitle": "Keyword", "sClass": "center"},
+		{"mDataProp": "keyword3", "sTitle": "Keyword", "sClass": "center"},
+		{"mDataProp": "keyword4", "sTitle": "Keyword", "sClass": "center"},
 		{"mDataProp": "curriculumarea", "sTitle": "Curriculum area", "sClass": "center"},
 		{"mDataProp": "curriculumarea2", "sTitle": "Curriculum area", "sClass": "center"},
 		{"mDataProp": "curriculumarea3", "sTitle": "Curriculum area", "sClass": "center"},
 		{"mDataProp": "masampasifika", "sTitle": "MASAM/Pasifika", "sClass": "center"},
 		{"mDataProp": "ethnicity", "sTitle": "Ethnicity", "sClass": "center"},
-		{"mDataProp": "gender", "sTitle": "Gender", "sClass": "center"},
-		{"mDataProp": "texttype", "sTitle": "Text type", "sClass": "center"},
-		{"mDataProp": "keyword1", "sTitle": "Keyword", "sClass": "center"},
-		{"mDataProp": "keyword2", "sTitle": "Keyword", "sClass": "center"},
-		{"mDataProp": "keyword3", "sTitle": "Keyword", "sClass": "center"},
-		{"mDataProp": "keyword4", "sTitle": "Keyword", "sClass": "center"}
+		{"mDataProp": "gender", "sTitle": "Gender", "sClass": "center"}
 	];
     return tableColumns;
 }
