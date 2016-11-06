@@ -158,7 +158,7 @@
       } else {
         //CORS only works in IE8/9 across the same protocol
         //You must have your server on HTTPS to talk to Google, or it'll fall back on injection
-        var protocol = this.endpoint.split("//").shift() || "http";
+        var protocol = this.endpoint.split("//").shift() || "https";
         if (supportsCORS && (!inLegacyIE || protocol === location.protocol)) {
           this.xhrFetch(path, callback);
         } else {
